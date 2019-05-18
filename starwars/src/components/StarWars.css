@@ -1,19 +1,26 @@
 .char-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    align-content: center ;
     width: 100%;
-    justify-content: space-evenly;
 }
 
 .char-card {
     display: flex;
     flex-direction: column;
-    margin: 3% auto;
-    width: fit-content;
+    margin: 1% auto;
+    width: 15%;
     border: solid 1px sandybrown;
-    padding: 3%;
-    box-shadow: inset -10px -10px 5px 5px black;
+    padding: 1%;
+    /* box-shadow: inset -10px -10px 5px 5px black; */
+    box-shadow: -5px -5px 5px 5px black;
+}
+
+#root > div > div > div:nth-child(1) > h2 {
+    display: flex;
 }
 
 
@@ -22,18 +29,18 @@
     flex-direction: column;
     margin: 5% auto;
     font-size: 6rem;
-    text-shadow: -5px -5px 4px black;
+    text-shadow: -5px -5px 3px black;
+    padding: 5%;
 }
 
 .App {
     display: flex;
     flex-direction: column;
     font-family: fantasy;
-    font-variant: oldstyle-nums;
     font-size: 1.1rem;
     width: auto;
     color: yellow;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: -5px -5px 3px black;
     -webkit-text-stroke-width: 0.05rem;
     -webkit-text-stroke-color: black;
 }

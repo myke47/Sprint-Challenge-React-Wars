@@ -7,8 +7,8 @@ const Characters = props => {
     return (
         <div className='char-card'>
             <h2>{props.characters.name}</h2>
-            <h3>size:{props.characters.mass}</h3>
-            <h3>birthdate:{props.characters.birth_year}</h3>
+            <h3>mass:{props.characters.mass}</h3>
+            <h3>dob:{props.characters.birth_year}</h3>
 
         </div>
 
